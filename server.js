@@ -1,6 +1,6 @@
 require('dotenv').config();
 const app = require('./app');
-const redis = require('../Mathon-go/config/redis');
+const redis = require('./config/redis');
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, async () => {
